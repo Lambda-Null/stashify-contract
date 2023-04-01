@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "stashify/properties"
+require "stashify/contract/properties"
 
 RSpec.shared_context "directory setup" do |property_count|
   around(:each) do |s|
